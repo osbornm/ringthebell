@@ -64,6 +64,7 @@
     <Content Include="audio\soundmanager2_flash9_debug.swf" />
     <Content Include="index.html" />
     <Content Include="Media\Trainbell.mp3" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -71,6 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="audio\soundmanager2_flash_xdomain.zip" />
+    <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
