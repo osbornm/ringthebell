@@ -57,6 +57,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="audio\soundmanager2.js" />
+    <Content Include="audio\soundmanager2.swf" />
+    <Content Include="audio\soundmanager2_debug.swf" />
+    <Content Include="audio\soundmanager2_flash9.swf" />
+    <Content Include="audio\soundmanager2_flash9_debug.swf" />
     <Content Include="index.html" />
     <Content Include="Media\Trainbell.mp3" />
     <Content Include="Web.config" />
@@ -65,6 +70,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="audio\soundmanager2_flash_xdomain.zip" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

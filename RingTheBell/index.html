@@ -13,11 +13,28 @@
     <div>
         <h1>Ring the bell!</h1>
     </div>
-    <audio src="/media/trainbell.mp3" autoplay="autoplay" loop="loop"></audio>
+    
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.min.js"></script>
+    <script src="/audio/soundmanager2.js"></script>
     <script>
         $(function () {
+
+            soundManager.setup({
+                url: '/audio/',
+                onready: function () {
+                    var mySound = soundManager.createSound({
+                        id: 'bell',
+                        url: '/media/trainbell.mp3'
+                    });
+                    mySound.play();
+                },
+                ontimeout: function () {
+                    console.log("could not play");
+                }
+            });
+
+
             function endless() {
                 $("h1").effect("shake", { times: 3 }, 600, endless);
             };
