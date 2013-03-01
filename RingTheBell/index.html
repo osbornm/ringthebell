@@ -25,7 +25,8 @@
                 onready: function () {
                     var mySound = soundManager.createSound({
                         id: 'bell',
-                        url: '/media/trainbell.mp3'
+                        url: '/media/trainbell.mp3',
+                        loops: 20
                     });
                     mySound.play();
                 },
