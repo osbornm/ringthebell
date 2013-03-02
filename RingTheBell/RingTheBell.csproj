@@ -63,6 +63,7 @@
     <Content Include="audio\soundmanager2_flash9.swf" />
     <Content Include="audio\soundmanager2_flash9_debug.swf" />
     <Content Include="index.html" />
+    <Content Include="Media\bell.gif" />
     <Content Include="Media\Trainbell.mp3" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
